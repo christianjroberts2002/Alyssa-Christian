@@ -1,0 +1,63 @@
+.photos{
+    display: inline-block;
+}
+
+.photos li{
+    list-style: none;
+}
+
+.photos li img{
+    align-self: center;
+    margin-left: 33.3%;
+    width: 33.3%;
+}
+
+.photos li video{
+    align-self: center;
+    margin-left: 33.3%;
+    width: 33.3%;
+}
+
+li{
+    display: inline
+}
+
+li image{
+  float: left;
+  
+}
+
+li h4{
+    text-align: center;
+}
+
+
+
+
+
+
+li p{
+    text-align: center;
+}
+@media screen and (max-width: 420px ) {
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.photos li img{
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.photos li video{
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+}
+    

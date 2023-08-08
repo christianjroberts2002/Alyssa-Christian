@@ -8,3 +8,26 @@
 .eternity p{
  white-space: pre;
 }
+
+.bag {
+    text-align: center;
+}
+
+.list{
+    display: inline-block;
+    width: 50%;
+    background-color: brown;
+}
+
+.list li {
+    text-align: left;
+    
+}
+
+p{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+  
+  
