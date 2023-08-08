@@ -1,5 +1,13 @@
+hr{
+
+    border: 2px solid  rgb(248, 241, 241);
+    border-radius: 0;
+    margin: 0;
+}
+
 .photos{
     display: inline-block;
+    padding: 0;
 }
 
 .photos li{
@@ -28,10 +36,35 @@ li image{
 }
 
 li h4{
+
     text-align: center;
+    font-family: 'Tangerine', cursive;
 }
 
 
+
+li .photo-title{
+    font-size: 3rem;
+    width: 60%;
+    height: 3.5rem;
+    margin: 0 20%;
+    color: rgb(248, 241, 241);
+
+}
+
+li p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 33.3%;
+    height: auto;
+    margin: 0 33.3%;
+    color: rgb(229, 124, 35);
+}
+
+
+.photo-container{
+    background-color: rgb(2, 84, 100);
+}
 
 
 
@@ -59,5 +92,42 @@ li p{
     width: 100%;
 }
 
+li p{
+    font-size: 1rem;
+    width: 80%;
+    height: auto;
+    margin: 0 10%;
+    color: rgb(229, 124, 35);
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 863px) {
+    li .photo-title{
+        font-size: 2rem;
+        width: 90%;
+        height: 2.5rem;
+        margin: 0 5%;
+        color: rgb(248, 241, 241);
+    
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 465px) {
+
+    li .small{
+        height: 4rem; 
+     }
 }
     

@@ -41,6 +41,7 @@ body{
 
 
 .main-title{
+    font-family: 'Tangerine', cursive;
     position: absolute;
     top: 1.5vw;
     right: 0;
@@ -49,7 +50,14 @@ body{
     font-size: 5vw;
   }
 
+  .main-text h2{
+    font-family: 'Inter', sans-serif;
+  }
+
     
+  .time{
+    font-family: 'Tangerine', cursive;
+  }
 
 
 
@@ -173,7 +181,7 @@ footer{
 
     .nav{
         height: 4.5rem;
-    }
+    } */
 
     .main-text h1{
         font-size: 4rem;
@@ -181,19 +189,24 @@ footer{
 
     .main-text h2{
         font-size: 3rem;
+
+        
     }
 
     .main-text{
-        width: 100%;
-        height: 100%;
+        height: 120%;
         background-image: url(./Assets/maintextimg.jpg);
-        background-size: 160%;
-        background-position: -55vw -20vw;
+        background-size: 135% auto;
+        background-position: -35vw -53vw;
         background-repeat: no-repeat;
+        background-attachment: local;
         margin: 0;
-        padding: 0;
-
+        object-fit: fill;
+        padding-bottom: 10vh;
+        color: rgb(2, 84, 100);
     }
+
+
     
 }
 
